@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+  - 2.3.0
+script: bundle exec rake spec
+notifications:
+  email:
+    - support@travellink.com.au
+  flowdock:
+    secure: RaQGWeReQ0CLDUbo6s2RSTgyB0LgzOUTjdLDOg7BotRf1uouGZ3+g1j3cebe53BZkfsi++raabdlcEJdFpUeP/F5OivxRDTHice4xYJULJ7pwum3d2L7eysxlAPAPIBW/gB9EH+Br/H9LujgbMesb6amK3LE5hq2NPtwEq2xT0xy9kxrYQYrvPR82+aCU7PbWwFLw7nVlDF1AvogGMO2Enm0dVvat6szf1eveO8I85n55hGjzYkDjVQBZMpMu9jNbti9q3+j9tR6IbzUFnmrIHczyO9JqWZpACRJwXBNbikC+w6vCqViBpx/yA+D7K5c+rHnRa6Wj37096Lf7XdLQ1h8MR0wK7PqhhnYlaapK+16GJ3Qj/RcFSypYMeX0mL2hNds27NkOUSJGwkFUmwnPseSi2R1mtd2ZbXBruG/LDTJy8DKUVIuySpv4RuZGmL2SBPYofYWVIUqKmb1IWLJZUbPG0HE4HoB/Xrl7HCaGZELO2Kuxb+J7IZisyEp9WdhXIdr0uNB5SDB6jqdgIFeXnMRMFfJDh0gdgrcdx76L5FhNgm/0rfnL7y0ojw7avQh76SgbyquqUY5oUnWYuI5PrpJsH4m1SOnG6s1M0XIH4CRvOKkq/3/ivss+E1gwepJl8MHHy12r4TFiVdqtgxlV+tIMDk0j10mvxFHvWFttx8=
+sudo: false
+cache: bundler
