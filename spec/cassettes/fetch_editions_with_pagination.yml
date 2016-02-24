@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://local.content-network.dev/zapi/v1/Entry/ondeck/ondeckEdition/all?page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - local.content-network.dev
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.9.11
+      Date:
+      - Tue, 23 Feb 2016 06:25:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - CraftSessionId=r9r2o88n7h2vu9e86dp3ke7i85; path=/; domain=local.content-network.dev;
+        HttpOnly
+      X-Powered-By:
+      - Craft CMS
+      Expires:
+      - Tue, 16 Feb 2016 06:25:04 GMT
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"95","title":"Christmas is over, now your holiday can
+        begin!","url":"http:\/\/local.content-network.dev\/ondeck\/christmas-is-over-now-your-holiday-can-begin\/","date":{"date":"2015-12-26
+        00:00:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"dateTime":null,"postDate":{"date":"2016-01-21
+        12:38:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"excerptText":"Concert
+        in the Caves;  Save 10%  on Kangaroo Island Packages^","body":"<p>Concert
+        in the Caves; &nbsp;Save 10% &nbsp;on Kangaroo Island Packages^<\/p>","bodyMatrix":[],"entryOrder":"0","faqQuestionsAnswers":null,"featuredEntry":"0","googleMapIframe":null,"locationName":null,"productPrice":null,"regionTitle":null,"slideDuration":null,"subtitle":null,"time":null,"tourOperatingDetails":null,"youtubeIframe":null,"bannerImage":[],"bannerTextLine1":null,"bannerTextLine2":null,"bannerTextLine3":null,"bannerTextLine4":null,"hyperlink":[{"linkURL":"http:\/\/email.sealinktravelgroup.com.au\/t\/r-e-vvjko-l-jr\/","linkText":null,"linkTitle":"View
+        onDeck Email","linkTarget":"_blank","linkRelations":""}],"featureImage":[{"url":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/post-xmas1.jpg","title":"After
+        Christmas","small":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_small\/post-xmas1.jpg","medium":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_medium\/post-xmas1.jpg","large":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_large\/post-xmas1.jpg","thumbnail180":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail180\/post-xmas1.jpg","thumbnail600":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail600\/post-xmas1.jpg"}],"imageGallery":[],"packageDetails":[],"promotionalSlides":[],"regionThumbnail":[],"sectionName":"OnDeck","sectionHandle":"ondeck","typeName":"Edition","typeHandle":"ondeckEdition","jsonUrl":"http:\/\/local.content-network.dev\/zapi\/v1\/Entry\/ondeck\/ondeckEdition\/95.json\/"},{"id":"92","title":"PS
+        Murray Princess Cruise Specials","url":"http:\/\/local.content-network.dev\/ondeck\/ps-murray-princess-cruise-specials\/","date":{"date":"2015-12-18
+        00:00:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"dateTime":null,"postDate":{"date":"2016-01-21
+        12:33:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"excerptText":"Bonus
+        Cabin Upgrades and $100 Bar Vouchers on PS Murray Princess in January 2016","body":"<p>Bonus
+        Cabin Upgrades and $100 Bar Vouchers on PS Murray Princess in January 2016<\/p>","bodyMatrix":[],"entryOrder":"0","faqQuestionsAnswers":null,"featuredEntry":"0","googleMapIframe":null,"locationName":null,"productPrice":null,"regionTitle":null,"slideDuration":null,"subtitle":null,"time":null,"tourOperatingDetails":null,"youtubeIframe":null,"bannerImage":[],"bannerTextLine1":null,"bannerTextLine2":null,"bannerTextLine3":null,"bannerTextLine4":null,"hyperlink":[{"linkURL":"http:\/\/email.sealinktravelgroup.com.au\/t\/r-e-vlkydhd-l-jl\/","linkText":null,"linkTitle":"View
+        onDeck Email","linkTarget":"_blank","linkRelations":""}],"featureImage":[{"url":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/PSMurrayPrincessHeaderImage.jpg","title":"Murray
+        Princess Header Image","small":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_small\/PSMurrayPrincessHeaderImage.jpg","medium":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_medium\/PSMurrayPrincessHeaderImage.jpg","large":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_large\/PSMurrayPrincessHeaderImage.jpg","thumbnail180":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail180\/PSMurrayPrincessHeaderImage.jpg","thumbnail600":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail600\/PSMurrayPrincessHeaderImage.jpg"}],"imageGallery":[],"packageDetails":[],"promotionalSlides":[],"regionThumbnail":[],"sectionName":"OnDeck","sectionHandle":"ondeck","typeName":"Edition","typeHandle":"ondeckEdition","jsonUrl":"http:\/\/local.content-network.dev\/zapi\/v1\/Entry\/ondeck\/ondeckEdition\/92.json\/"}],"meta":{"pagination":{"total":8,"count":2,"per_page":2,"current_page":2,"total_pages":4,"links":{"previous":"http:\/\/local.content-network.dev\/zapi\/v1\/Entry\/ondeck\/ondeckEdition\/all\/?page=1","next":"http:\/\/local.content-network.dev\/zapi\/v1\/Entry\/ondeck\/ondeckEdition\/all\/?page=3"}}}}'
+    http_version: 
+  recorded_at: Tue, 23 Feb 2016 06:25:04 GMT
+recorded_with: VCR 3.0.1

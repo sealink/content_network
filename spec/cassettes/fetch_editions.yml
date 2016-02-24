@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://local.content-network.dev/zapi/v1/Entry/ondeck/ondeckEdition/all?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - local.content-network.dev
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.9.11
+      Date:
+      - Tue, 23 Feb 2016 06:25:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - CraftSessionId=1hjgs6jlih9j8h2t7oior26j02; path=/; domain=local.content-network.dev;
+        HttpOnly
+      X-Powered-By:
+      - Craft CMS
+      Expires:
+      - Tue, 16 Feb 2016 06:25:04 GMT
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"256","title":"Captain Cook 7 Day Sale","url":"http:\/\/local.content-network.dev\/ondeck\/captain-cook-7-day-sale\/","date":{"date":"2016-02-18
+        00:00:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"dateTime":null,"postDate":{"date":"2016-02-18
+        13:39:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"excerptText":"Gold
+        Diner Specials, Stradbroke Island Saturday Sunrise Specials, Deals on Kangaroo
+        Island Adventure Tours and more!","body":"<p>Gold Diner Specials, Stradbroke
+        Island Saturday Sunrise&nbsp;Specials, Deals on Kangaroo Island Adventure
+        Tours and more!<\/p>","bodyMatrix":[],"entryOrder":"0","faqQuestionsAnswers":null,"featuredEntry":"0","googleMapIframe":null,"locationName":null,"productPrice":null,"regionTitle":null,"slideDuration":null,"subtitle":null,"time":null,"tourOperatingDetails":null,"youtubeIframe":null,"bannerImage":[],"bannerTextLine1":null,"bannerTextLine2":null,"bannerTextLine3":null,"bannerTextLine4":null,"hyperlink":[{"linkURL":"http:\/\/us12.campaign-archive1.com\/?u=5e99feac3ddcbafe28281a69d&id=719f6d44e8","linkText":"OnDeck
+        - Edition 8","linkTitle":"Gold Diner Specials, Stradbroke Island Saturday
+        Packages, Deals on Kangaroo Island Adventure Tours and more!","linkTarget":"_blank","linkRelations":""}],"featureImage":[{"url":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/037053-Cylinder-Beach-600w.jpg","title":"037053  Cylinder  Beach
+        600w","small":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_small\/037053-Cylinder-Beach-600w.jpg","medium":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_medium\/037053-Cylinder-Beach-600w.jpg","large":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_large\/037053-Cylinder-Beach-600w.jpg","thumbnail180":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail180\/037053-Cylinder-Beach-600w.jpg","thumbnail600":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail600\/037053-Cylinder-Beach-600w.jpg"}],"imageGallery":[{"url":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/037053-Cylinder-Beach-600w.jpg","title":"037053  Cylinder  Beach
+        600w","small":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_small\/037053-Cylinder-Beach-600w.jpg","medium":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_medium\/037053-Cylinder-Beach-600w.jpg","large":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_large\/037053-Cylinder-Beach-600w.jpg","thumbnail180":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail180\/037053-Cylinder-Beach-600w.jpg","thumbnail600":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail600\/037053-Cylinder-Beach-600w.jpg"}],"packageDetails":[],"promotionalSlides":[],"regionThumbnail":[],"sectionName":"OnDeck","sectionHandle":"ondeck","typeName":"Edition","typeHandle":"ondeckEdition","jsonUrl":"http:\/\/local.content-network.dev\/zapi\/v1\/Entry\/ondeck\/ondeckEdition\/256.json\/"},{"id":"104","title":"Great
+        deals on Australian and overseas travel.","url":"http:\/\/local.content-network.dev\/ondeck\/great-deals-on-australian-and-overseas-travel\/","date":{"date":"2016-01-21
+        00:00:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"dateTime":null,"postDate":{"date":"2016-01-21
+        15:28:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"excerptText":"7-Day
+        Hot Deals from Captain Cook Cruises and overseas travel with Australian Holiday
+        Centre. Plus your chance to win ticket to the movie Brooklyn.","body":"<p>7-Day
+        Hot Deals from Captain Cook Cruises and overseas travel with Australian Holiday
+        Centre. Plus your chance to win tickets to the movie Brooklyn.<\/p>","bodyMatrix":[],"entryOrder":"0","faqQuestionsAnswers":null,"featuredEntry":"0","googleMapIframe":null,"locationName":null,"productPrice":null,"regionTitle":null,"slideDuration":null,"subtitle":null,"time":null,"tourOperatingDetails":null,"youtubeIframe":null,"bannerImage":[],"bannerTextLine1":null,"bannerTextLine2":null,"bannerTextLine3":null,"bannerTextLine4":null,"hyperlink":[{"linkURL":"http:\/\/us12.campaign-archive2.com\/?u=5e99feac3ddcbafe28281a69d&id=0c90ae4c35","linkText":null,"linkTitle":"View
+        onDeck Email","linkTarget":"_blank","linkRelations":""}],"featureImage":[{"url":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/sydney-harbour-jason-600w4.jpg","title":"Sydney
+        Harbour","small":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_small\/sydney-harbour-jason-600w4.jpg","medium":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_medium\/sydney-harbour-jason-600w4.jpg","large":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_large\/sydney-harbour-jason-600w4.jpg","thumbnail180":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail180\/sydney-harbour-jason-600w4.jpg","thumbnail600":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail600\/sydney-harbour-jason-600w4.jpg"}],"imageGallery":[],"packageDetails":[],"promotionalSlides":[],"regionThumbnail":[],"sectionName":"OnDeck","sectionHandle":"ondeck","typeName":"Edition","typeHandle":"ondeckEdition","jsonUrl":"http:\/\/local.content-network.dev\/zapi\/v1\/Entry\/ondeck\/ondeckEdition\/104.json\/"}],"meta":{"pagination":{"total":8,"count":2,"per_page":2,"current_page":1,"total_pages":4,"links":{"next":"http:\/\/local.content-network.dev\/zapi\/v1\/Entry\/ondeck\/ondeckEdition\/all\/?page=2"}}}}'
+    http_version: 
+  recorded_at: Tue, 23 Feb 2016 06:25:04 GMT
+recorded_with: VCR 3.0.1

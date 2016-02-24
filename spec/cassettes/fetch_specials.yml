@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://local.content-network.dev/zapi/v1/Entry/ondeck/ondeckSpecial/all?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - local.content-network.dev
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.9.11
+      Date:
+      - Tue, 23 Feb 2016 06:25:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - CraftSessionId=ru0sicbu2j56ppmhcnfpdumgj6; path=/; domain=local.content-network.dev;
+        HttpOnly
+      X-Powered-By:
+      - Craft CMS
+      Expires:
+      - Tue, 16 Feb 2016 06:25:04 GMT
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"237","title":"Kangaroo Island Adventure Tours - Only
+        $410pp in February","url":"http:\/\/local.content-network.dev\/ondeck\/kangaroo-island-adventure-tours-only-410pp-in-february\/","date":{"date":"2016-02-01
+        00:00:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"dateTime":null,"postDate":{"date":"2016-02-15
+        17:48:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"excerptText":"Save
+        $26 this month when you book and travel on the 2 day Kangaroo Island Wilderness
+        Explorer with Kangaroo Island Adventure Tours. Stay at Vivonne Bay Lodge,
+        located on a 206 hectare private bush property.","body":"<p>.<\/p>","bodyMatrix":[],"entryOrder":"0","faqQuestionsAnswers":null,"featuredEntry":"0","googleMapIframe":null,"locationName":null,"productPrice":null,"regionTitle":null,"slideDuration":null,"subtitle":null,"time":null,"tourOperatingDetails":null,"youtubeIframe":null,"bannerImage":[],"bannerTextLine1":null,"bannerTextLine2":null,"bannerTextLine3":null,"bannerTextLine4":null,"hyperlink":[{"linkURL":"https:\/\/www.kiadventuretours.com.au\/tours\/2-day-wilderness-explorer?utm_source=ondeck&utm_medium=referral&utm_campaign=%24410%20February%202016%20Special","linkText":"2
+        Day Kangaroo Island Wilderness Explorer - Kangaroo Island Adventure Tours","linkTitle":"2
+        Day Kangaroo Island Wilderness Explorer - Kangaroo Island Adventure Tours","linkTarget":"_blank","linkRelations":""}],"featureImage":[{"url":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/KIAT-410-February-Special.jpg","title":"Kiat
+        410  February  Special","small":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/_small\/KIAT-410-February-Special.jpg","medium":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/_medium\/KIAT-410-February-Special.jpg","large":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/_large\/KIAT-410-February-Special.jpg","thumbnail180":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/_thumbnail180\/KIAT-410-February-Special.jpg","thumbnail600":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/_thumbnail600\/KIAT-410-February-Special.jpg"}],"imageGallery":[],"packageDetails":[],"promotionalSlides":[],"regionThumbnail":[],"sectionName":"OnDeck","sectionHandle":"ondeck","typeName":"Special","typeHandle":"ondeckSpecial","jsonUrl":"http:\/\/local.content-network.dev\/zapi\/v1\/Entry\/ondeck\/ondeckSpecial\/237.json\/"},{"id":"62","title":"3
+        Day Limestone Coast Discovery Tour Special","url":"http:\/\/local.content-network.dev\/ondeck\/concert-in-the-caves\/","date":{"date":"2015-12-26
+        00:00:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"dateTime":null,"postDate":{"date":"2016-01-12
+        11:13:00.000000","timezone_type":3,"timezone":"Australia\/Sydney"},"excerptText":"Tour
+        departs from Adelaide on 4 March 2016 - $895 per person twin share.","body":"<p><strong>3
+        Day Limestone Coast&nbsp;<\/strong><strong>Discovery Tour&nbsp;<\/strong><\/p>\r\n\r\n<p>Tour
+        departs from Adelaide on 4 March 2016&nbsp;$895 per person twin share.<\/p>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<p>Join
+        the&nbsp;<a href=\"http:\/\/email.sealinktravelgroup.com.au\/t\/r-l-vvjko-l-y\/\">Australian
+        Holiday Centre<\/a>&nbsp;as they explore the Limestone Coast in South Australia
+        on this 3 day trip. On the second night, you''ll be treated to a special concert&nbsp;held
+        in the natural amphitheatre of the world-heritage listed Naracoorte Caves.
+        Concert stars David Hobson, ably supported by the Opera Scholars Australia.<br><\/p>","bodyMatrix":[],"entryOrder":"0","faqQuestionsAnswers":null,"featuredEntry":"0","googleMapIframe":null,"locationName":null,"productPrice":null,"regionTitle":null,"slideDuration":null,"subtitle":null,"time":null,"tourOperatingDetails":null,"youtubeIframe":null,"bannerImage":[],"bannerTextLine1":null,"bannerTextLine2":null,"bannerTextLine3":null,"bannerTextLine4":null,"hyperlink":[{"linkURL":"http:\/\/email.sealinktravelgroup.com.au\/t\/r-l-vvjko-l-j\/","linkText":"Link
+        Text","linkTitle":"View Email Offer","linkTarget":"_blank","linkRelations":""}],"featureImage":[{"url":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/cave.jpg","title":"Cave","small":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/_small\/cave.jpg","medium":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/_medium\/cave.jpg","large":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/_large\/cave.jpg","thumbnail180":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/_thumbnail180\/cave.jpg","thumbnail600":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/Specials\/_thumbnail600\/cave.jpg"}],"imageGallery":[{"url":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/MagneticIsland1.jpg","title":"Magnetic
+        Island","small":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_small\/MagneticIsland1.jpg","medium":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_medium\/MagneticIsland1.jpg","large":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_large\/MagneticIsland1.jpg","thumbnail180":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail180\/MagneticIsland1.jpg","thumbnail600":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail600\/MagneticIsland1.jpg"},{"url":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/PSMurrayPrincessHeaderImage.jpg","title":"Murray
+        Princess Header Image","small":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_small\/PSMurrayPrincessHeaderImage.jpg","medium":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_medium\/PSMurrayPrincessHeaderImage.jpg","large":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_large\/PSMurrayPrincessHeaderImage.jpg","thumbnail180":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail180\/PSMurrayPrincessHeaderImage.jpg","thumbnail600":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail600\/PSMurrayPrincessHeaderImage.jpg"},{"url":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/cafc23df-7b64-49a5-8130-b6848f569da4.jpg","title":"Cafc23df
+        7b64 49a5 8130 B6848f569da4","small":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_small\/cafc23df-7b64-49a5-8130-b6848f569da4.jpg","medium":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_medium\/cafc23df-7b64-49a5-8130-b6848f569da4.jpg","large":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_large\/cafc23df-7b64-49a5-8130-b6848f569da4.jpg","thumbnail180":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail180\/cafc23df-7b64-49a5-8130-b6848f569da4.jpg","thumbnail600":"https:\/\/s3-ap-southeast-2.amazonaws.com\/akil-doc-migration-test\/OnDeck\/_thumbnail600\/cafc23df-7b64-49a5-8130-b6848f569da4.jpg"}],"packageDetails":[],"promotionalSlides":[],"regionThumbnail":[],"sectionName":"OnDeck","sectionHandle":"ondeck","typeName":"Special","typeHandle":"ondeckSpecial","jsonUrl":"http:\/\/local.content-network.dev\/zapi\/v1\/Entry\/ondeck\/ondeckSpecial\/62.json\/"}],"meta":{"pagination":{"total":2,"count":2,"per_page":2,"current_page":1,"total_pages":1,"links":[]}}}'
+    http_version: 
+  recorded_at: Tue, 23 Feb 2016 06:25:04 GMT
+recorded_with: VCR 3.0.1
