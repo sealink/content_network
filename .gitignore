@@ -1,4 +1,4 @@
-pkg
-coverage
-Gemfile.lock
-tmp
+/pkg
+/coverage
+/Gemfile.lock
+/tmp
